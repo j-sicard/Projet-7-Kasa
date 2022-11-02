@@ -1,0 +1,25 @@
+.GlobalNav {
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DivIcon {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.DivLink {
+  font-size: 24px;
+  font-weight: 600;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 6%;
+}

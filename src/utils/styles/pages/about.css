@@ -1,0 +1,16 @@
+.MajorContainer {
+  width: 80%;
+}
+
+.AboutBanner {
+  width: 100%;
+  height: 223px;
+  border-radius: 25px;
+  filter: brightness(70%);
+  margin-bottom: 20px;
+}
+
+.DropdownBox {
+  width: 90%;
+  margin: auto;
+}
