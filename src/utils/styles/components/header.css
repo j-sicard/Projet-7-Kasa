@@ -15,11 +15,44 @@
 }
 
 .DivLink {
-  font-size: 24px;
-  font-weight: 600;
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 6%;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ***** Media queries ***** */
+
+@media (max-width: 480px) {
+  .DivIcon {
+    width: 200px;
+    height: 100px;
+    padding-left: 0;
+  }
+
+  .LogoKasa {
+    width: 140px;
+  }
+
+  .DivLink {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0;
+    font-size: 15px;
+    font-weight: 590;
+  }
+
+  .link {
+    margin-left: 40px;
+  }
+
+  .GlobalNav {
+    height: 100px;
+  }
 }

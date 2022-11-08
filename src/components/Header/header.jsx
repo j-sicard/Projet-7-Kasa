@@ -6,11 +6,15 @@ function Header() {
   return (
     <nav className="GlobalNav">
       <div className="DivIcon">
-        <img src={LogoOfKasa} alt="" />
+        <img className="LogoKasa" src={LogoOfKasa} alt="" />
       </div>
       <div className="DivLink">
-        <Link to="/">Accueil</Link>
-        <Link to="/about">A Propos</Link>
+        <Link className="link" to="/">
+          Accueil
+        </Link>
+        <Link className="link" to="/about">
+          A Propos
+        </Link>
       </div>
     </nav>
   )

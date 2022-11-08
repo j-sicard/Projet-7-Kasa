@@ -1,5 +1,6 @@
 .MajorContainer {
   width: 80%;
+  margin-bottom: 90px;
 }
 
 .AboutBanner {
@@ -13,4 +14,26 @@
 .DropdownBox {
   width: 90%;
   margin: auto;
+}
+
+/* ***** Media queries ***** */
+
+@media (max-width: 480px) {
+  .MajorContainer {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+
+  .DropdownBox {
+    width: 100%;
+  }
+
+  .AboutBanner {
+    width: 100%;
+    height: 180px;
+    border-radius: 25px;
+    filter: brightness(70%);
+    margin-bottom: 20px;
+  }
 }

@@ -6,12 +6,14 @@ function Error() {
   return (
     <div className="Majorcontainer">
       <div>
-        <img src={ErrorImg} alt="404" />
+        <img className="ImgError" src={ErrorImg} alt="404" />
       </div>
       <h1 className="TitleEror">
         Oups ! La page que vous demandez n'existe pas.
       </h1>
-      <Link to="/">Retrouner sur la page d'accueil</Link>
+      <Link className="link" to="/">
+        Retrouner sur la page d'accueil
+      </Link>
     </div>
   )
 }

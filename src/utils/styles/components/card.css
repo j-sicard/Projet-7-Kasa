@@ -1,0 +1,33 @@
+.card h2 {
+  font-size: 15px;
+  position: absolute;
+  color: #ffff;
+  bottom: 20px;
+  left: 10px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 50px;
+  position: relative;
+}
+
+.Product_Pick {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* ***** Media queries ***** */
+
+@media (max-width: 480px) {
+  .card {
+    width: 370px;
+    height: 300px;
+    margin-top: 20px;
+  }
+}
