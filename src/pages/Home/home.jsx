@@ -18,7 +18,7 @@ function Home() {
       <div className="Section">
         {Products.map((Product) => {
           return (
-            <Link key={Product.id} to={'/singleproduct/' + Product.id + '/#'}>
+            <Link key={Product.id} to={'/singleproduct/' + Product.id + '#'}>
               <Card title={Product.title} cover={Product.cover} />
             </Link>
           )

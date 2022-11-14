@@ -23,11 +23,20 @@
 }
 
 /* ***** Media queries ***** */
-
+/* ***** Mobil ***** */
 @media (max-width: 480px) {
   .card {
     width: 370px;
     height: 300px;
     margin-top: 20px;
+  }
+}
+
+/* ***** Tablet ***** */
+@media (min-width: 481px) and (max-width: 820px) {
+  .card {
+    width: 600px;
+    height: 300px;
+    margin-top: 30px;
   }
 }

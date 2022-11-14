@@ -47,6 +47,7 @@
 
 /* ***** Media queries ***** */
 
+/*  ***** Mobil ***** */
 @media (max-width: 480px) {
   .MajorContainer {
     width: 100%;
@@ -77,5 +78,16 @@
     background-color: #ffff;
     padding-bottom: 25px;
     margin-bottom: 25px;
+  }
+}
+
+/* ***** Tablet ***** */
+
+@media (min-width: 481px) and (max-width: 820px) {
+  .HomeTitle {
+    top: 70px;
+    margin-left: 10%;
+    font-size: 35px;
+    font-weight: 500;
   }
 }

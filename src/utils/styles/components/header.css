@@ -24,6 +24,15 @@
   font-weight: 600;
 }
 
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.link.active {
+  border-bottom: 1px solid #ff6060;
+}
+
 /* ***** Media queries ***** */
 
 @media (max-width: 480px) {

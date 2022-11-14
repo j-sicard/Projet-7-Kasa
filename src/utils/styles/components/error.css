@@ -26,3 +26,25 @@
     margin: 50px 0 150px 0;
   }
 }
+
+.BackToHome {
+  color: #ff6060;
+}
+/* ***** Tablet ***** */
+
+@media (min-width: 481px) and (max-width: 820px) {
+  .ImgError {
+    margin-top: 50px;
+    width: 350px;
+  }
+
+  .TitleEror {
+    text-align: center;
+    font-size: 25px;
+    margin: 80px 0 150px 0;
+  }
+
+  .Majorcontainer {
+    margin-bottom: 180px;
+  }
+}

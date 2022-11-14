@@ -11,7 +11,7 @@ function Error() {
       <h1 className="TitleEror">
         Oups ! La page que vous demandez n'existe pas.
       </h1>
-      <Link className="link" to="/">
+      <Link className="BackToHome" to="/">
         Retrouner sur la page d'accueil
       </Link>
     </div>
